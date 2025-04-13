@@ -63,13 +63,6 @@ plt.show()
 def mostrar_imagenes_por_cluster(labels, nombres_imagenes, X):
     for cluster in set(labels):
         print(f"Imágenes en el clúster {cluster}:")
-        #for i in range(len(labels)):
-         #   if labels[i] == cluster:
-          #      img = cv2.imread(nombres_imagenes[i])
-           #     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-              #  plt.imshow(img_rgb)
-              #  plt.axis('off')
-              #  plt.show()
 
 # Mostrar imágenes por clúster
 mostrar_imagenes_por_cluster(labels, nombres_imagenes, X)
